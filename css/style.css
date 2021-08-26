@@ -606,7 +606,7 @@ input[type=text] {
         background-position: inherit;
     }
 
-    .config-img{
+    .config-img {
         display: none;
     }
 
@@ -656,8 +656,13 @@ input[type=text] {
     }
 
     .pricing-text {
-        padding   : 1rem;
-        text-align: justify;
+        padding: 1rem;
+    }
+
+    .pricing-text p {
+        text-align: center;
+        padding   : 1rem 0;
+        font-size : 1.2rem;
     }
 
 
@@ -697,13 +702,17 @@ input[type=text] {
     }
 
     .app-info h2 {
-        font-size     : 1rem;
-        padding-bottom: 1.5rem;
+        font-size     : 1.5rem;
+        padding-bottom: .5rem;
     }
 
     .message-header {
         flex-direction: column;
         align-items   : center;
+    }
+
+    .message-header h2{
+        padding-bottom: .5rem;
     }
 
     .message-text p {
